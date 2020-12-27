@@ -5,7 +5,7 @@ export const StyledAbout = styled.div`
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding:5rem 7rem;
+    padding:3.5rem 7rem;
     color:white;
 `;
 export const StyledDescription = styled.div`
