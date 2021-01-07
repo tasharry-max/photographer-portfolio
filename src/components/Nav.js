@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import {Link} from 'react-router-dom';
+import React from "react";
+import styled from "styled-components";
+import {Link} from "react-router-dom";
 
 const Nav = () => {
     return(
@@ -38,7 +38,7 @@ const StyledNav = styled.div`
     }
     #logo{
         font-size:1.5rem;
-        font-family: 'Jura', sans-serif;
+        font-family: "Jura", sans-serif;
 
     }
 `;
