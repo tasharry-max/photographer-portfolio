@@ -11,21 +11,21 @@ import goodtimes from '../img/goodtimes-small.png';
             <StyledMovie>
                 <h2>The Athlete</h2>
                 <div className="line"></div>
-                <Link to="/contact">
+                <Link to="/work/the-athlete">
                     <img src={athlete} alt="athlete"/>
                 </Link>
             </StyledMovie>
             <StyledMovie>
                 <h2>The Racer</h2>
                 <div className="line"></div>
-                <Link to="/contact">
+                <Link to="/work/the-racer">
                     <img src={theracer} alt="racer"/>
                 </Link>
             </StyledMovie>
             <StyledMovie>
                 <h2>The Good Times</h2>
                 <div className="line"></div>
-                <Link to="/contact">
+                <Link to="/work/good-times">
                     <img src={goodtimes} alt="goodtimes"/>
                 </Link>
             </StyledMovie>
