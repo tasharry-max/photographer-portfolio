@@ -6,8 +6,12 @@ import theracer from '../img/theracer-small.png';
 import goodtimes from '../img/goodtimes-small.png';
 import {motion} from "framer-motion";
 import {pageAnimation, fade, photoAnim, lineAnim, slider, sliderContainer} from "../animate";
+import {useScroll} from '../components/useScroll';
+import {scrollReveal} from '../animate';
 
  const OurWork = () => {
+    const [element, controls] = useScroll();
+    const [element2, controls2] = useScroll();
     return(
         <StyledWork variants={pageAnimation} initial="hidden" animate="show" exit="exit" style={{background:"#fff"}}>
             <motion.div  variants={sliderContainer}>
@@ -16,7 +20,7 @@ import {pageAnimation, fade, photoAnim, lineAnim, slider, sliderContainer} from 
                 <Frame3 variants={slider}></Frame3>
                 <Frame4 variants={slider}></Frame4>
             </motion.div>
-            <StyledMovie>
+            <StyledMovie >
                 <motion.h2 variants={fade}>The Athlete</motion.h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/the-athlete">
@@ -25,14 +29,14 @@ import {pageAnimation, fade, photoAnim, lineAnim, slider, sliderContainer} from 
                     </Hide>
                 </Link>
             </StyledMovie>
-            <StyledMovie>
+            <StyledMovie ref={element} animate={controls} variants={fade} initial="hidden">
                 <h2>The Racer</h2>
                 <div className="line"></div>
                 <Link to="/work/the-racer">
                     <img src={theracer} alt="racer"/>
                 </Link>
             </StyledMovie>
-            <StyledMovie>
+            <StyledMovie ref={element2} animate={controls2} variants={fade} initial="hidden">
                 <h2>The Good Times</h2>
                 <div className="line"></div>
                 <Link to="/work/good-times">
@@ -51,7 +55,7 @@ import {pageAnimation, fade, photoAnim, lineAnim, slider, sliderContainer} from 
         padding: 1rem 0;
     }
  `
- const StyledMovie = styled.div`
+ const StyledMovie = styled(motion.div)`
     padding-bottom:7rem;
     .line{
         height: 0.3rem;
