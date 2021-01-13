@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/photographer-portfolio/static/js/main.b5a673bb.chunk.js",
-    "main.js.map": "/photographer-portfolio/static/js/main.b5a673bb.chunk.js.map",
+    "main.js": "/photographer-portfolio/static/js/main.99f87e85.chunk.js",
+    "main.js.map": "/photographer-portfolio/static/js/main.99f87e85.chunk.js.map",
     "runtime-main.js": "/photographer-portfolio/static/js/runtime-main.a552225d.js",
     "runtime-main.js.map": "/photographer-portfolio/static/js/runtime-main.a552225d.js.map",
-    "static/js/2.2ffa62a7.chunk.js": "/photographer-portfolio/static/js/2.2ffa62a7.chunk.js",
-    "static/js/2.2ffa62a7.chunk.js.map": "/photographer-portfolio/static/js/2.2ffa62a7.chunk.js.map",
+    "static/js/2.de658425.chunk.js": "/photographer-portfolio/static/js/2.de658425.chunk.js",
+    "static/js/2.de658425.chunk.js.map": "/photographer-portfolio/static/js/2.de658425.chunk.js.map",
     "index.html": "/photographer-portfolio/index.html",
-    "static/js/2.2ffa62a7.chunk.js.LICENSE.txt": "/photographer-portfolio/static/js/2.2ffa62a7.chunk.js.LICENSE.txt",
+    "static/js/2.de658425.chunk.js.LICENSE.txt": "/photographer-portfolio/static/js/2.de658425.chunk.js.LICENSE.txt",
     "static/media/athlete-small.9c7a85d4.png": "/photographer-portfolio/static/media/athlete-small.9c7a85d4.png",
     "static/media/athlete2.b216a5ad.png": "/photographer-portfolio/static/media/athlete2.b216a5ad.png",
     "static/media/clock.4b7cde7e.svg": "/photographer-portfolio/static/media/clock.4b7cde7e.svg",
@@ -23,7 +23,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a552225d.js",
-    "static/js/2.2ffa62a7.chunk.js",
-    "static/js/main.b5a673bb.chunk.js"
+    "static/js/2.de658425.chunk.js",
+    "static/js/main.99f87e85.chunk.js"
   ]
 }
