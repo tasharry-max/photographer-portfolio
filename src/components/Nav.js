@@ -29,6 +29,9 @@ const StyledNav = styled.div`
     align-items:center;
     padding:1rem 7rem;
     background: #282828;
+    position: sticky;
+    top:0;
+    z-index: 10;
     a{color:white;text-decoration:none;}
     ul{
         display: flex;list-style:none;

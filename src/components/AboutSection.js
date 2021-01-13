@@ -27,6 +27,7 @@ const AboutSection = () => {
                 <motion.img src={home1} alt="camera" variants={photoAnim} initial="hidden" animate="show"/>
             </StyledImage>
             <Wave/>
+            <ScrollTop/>
         </StyledAbout>
     )
 };
