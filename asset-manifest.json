@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/photographer-portfolio/static/js/main.99f87e85.chunk.js",
-    "main.js.map": "/photographer-portfolio/static/js/main.99f87e85.chunk.js.map",
+    "main.js": "/photographer-portfolio/static/js/main.88e70d7c.chunk.js",
+    "main.js.map": "/photographer-portfolio/static/js/main.88e70d7c.chunk.js.map",
     "runtime-main.js": "/photographer-portfolio/static/js/runtime-main.a552225d.js",
     "runtime-main.js.map": "/photographer-portfolio/static/js/runtime-main.a552225d.js.map",
     "static/js/2.de658425.chunk.js": "/photographer-portfolio/static/js/2.de658425.chunk.js",
@@ -24,6 +24,6 @@
   "entrypoints": [
     "static/js/runtime-main.a552225d.js",
     "static/js/2.de658425.chunk.js",
-    "static/js/main.99f87e85.chunk.js"
+    "static/js/main.88e70d7c.chunk.js"
   ]
 }
